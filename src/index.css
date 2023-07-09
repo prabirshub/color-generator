@@ -253,7 +253,6 @@ ul {
   margin-top: 1rem;
 }
 /* ============= PROJECT CSS =============== */
-
 .container {
   padding: 2rem;
   display: grid;
@@ -282,9 +281,10 @@ input[type='color'] {
   letter-spacing: 3px;
   transition-duration: 0s;
 }
+
 @media screen and (min-width: 768px) {
   .container {
-    grid-template-columns: auto 1fr;
+    grid-template-columns: aur 1fr;
     column-gap: 2rem;
     align-items: center;
   }
@@ -299,6 +299,7 @@ input[type='color'] {
   grid-template-columns: repeat(auto-fit, minmax(223.33px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(96px, 1fr));
 }
+
 .color {
   padding: 1rem 2rem;
   cursor: pointer;
